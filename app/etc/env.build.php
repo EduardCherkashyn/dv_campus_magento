@@ -14,9 +14,9 @@ return [
         'connection' => [
             'default' => [
                 'host' => 'mysql',
-                'dbname' => 'eduard_cherkashyn_dev_local',
-                'username' => 'eduard_cherkashyn_dev_local',
-                'password' => 'yfbqwe534g89qrg348qgr',
+                'dbname' => 'eduard_cherkashyn_build_local',
+                'username' => 'eduard_cherkashyn_build_local',
+                'password' => 'heqf9y923hfhhyh9h!(!(G!',
                 'model' => 'mysql4',
                 'engine' => 'innodb',
                 'initStatements' => 'SET NAMES utf8;',
