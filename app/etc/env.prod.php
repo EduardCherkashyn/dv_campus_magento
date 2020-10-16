@@ -76,5 +76,41 @@ return [
     ],
     'install' => [
         'date' => 'Sat, 03 Oct 2020 09:06:30 +0000'
+    ],
+    'system' => [
+        'default' => [
+            'web' => [
+                'unsecure' => [
+                    'base_url' => 'https://eduard-cherkashyn.local/',
+                    'base_link_url' => '{{unsecure_base_url}}',
+                    'base_static_url' => 'https://eduard-cherkashyn.local/static/',
+                    'base_media_url' => 'https://eduard-cherkashyn.local/media/'
+                ],
+                'secure' => [
+                    'base_url' => 'https://eduard-cherkashyn.local/',
+                    'base_link_url' => '{{secure_base_url}}',
+                    'base_static_url' => 'https://eduard-cherkashyn.local/static/',
+                    'base_media_url' => 'https://eduard-cherkashyn.local/media/'
+                ],
+            ],
+        ],
+        'websites' => [
+            'dv_campus' => [
+                'web' => [
+                    'unsecure' => [
+                        'base_url' => 'https://eduard-cherkashyn-dv-campus.local/',
+                        'base_link_url' => 'https://eduard-cherkashyn-dv-campus.local/',
+                        'base_static_url' => 'https://eduard-cherkashyn-dv-campus.local/static/',
+                        'base_media_url' => 'https://eduard-cherkashyn-dv-campus.local/media/'
+                    ],
+                    'secure' => [
+                        'base_url' => 'https://eduard-cherkashyn-dv-campus.local/',
+                        'base_link_url' => 'https://eduard-cherkashyn-dv-campus.local/',
+                        'base_static_url' => 'https://eduard-cherkashyn-dv-campus.local/static/',
+                        'base_media_url' => 'https://eduard-cherkashyn-dv-campus.local/media/'
+                    ]
+                ]
+            ]
+        ]
     ]
 ];
