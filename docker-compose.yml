@@ -1,5 +1,5 @@
 # SSL certificates for development
-# $ mkcert eduard-cherkashyn.local www.eduard-cherkashyn.local eduard-cherkashyn-dv-campus.local www.eduard-cherkashyn-dv-campus.local
+# $ mkcert eduard-cherkashyn.local www.eduard-cherkashyn.local eduard-cherkashyn-dv-campus.local www.eduard-cherkashyn-dv-campus.local eduard-cherkashyn-dev.local www.eduard-cherkashyn-dev.local eduard-cherkashyn-dv-campus-dev.local www.eduard-cherkashyn-dv-campus-dev.local
 #
 # Start composition:
 # $ docker-compose up -d
