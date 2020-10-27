@@ -39,3 +39,11 @@ Deployment process flow implemented in the above files:
 6) copy generated files from the build system;
 7) switch to the production mode;
 8) turn off maintenance (only for `deploy-full.sh`).
+
+
+### Grunt config ###
+
+To compile all styles for the theme `eduardcherkashyn_luma` run:
+```
+grunt exec:eduardcherkashyn_luma_en_us && grunt less:eduardcherkashyn_luma_en_us
+```
